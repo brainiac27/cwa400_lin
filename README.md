@@ -1,5 +1,9 @@
 # CWA400_LIN
 LIN Example for CWA400
+|    |PID |B0 |B1 |B2 |B3|B4|B5|B6|B7|
+|----|----|---|---|---|-|-|-|-|-|
+|TX  |0x26|RPM|0x00|CKSM| | | | | |
+|RX  |0x25|RPM|VLT|TMP|I|B4|B5|B6|CKSM|
 
 ## Purpose
 This python file describes requesting and sending data with a Pierburg CWA400 water pump over LIN. It's been confirmed to work with a OE BMW unit on a bench. 
